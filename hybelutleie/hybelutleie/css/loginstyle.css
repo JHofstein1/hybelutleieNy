@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+ .avatar {
+    height: 375px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+ }
+b {
+   font-size: larger;
+   line-height: 1.8;
+  
+}
+
+ .skrift {
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+ }
+
+ .container {
+    text-align: center;
+ }
+
+ body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #77D4FC;
+ }
+ input {
+    font-family: 'Raleway', sans-serif;
+ }
+ button {
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    
+ }
+ c {
+    color: #77D4FC; 
+ }

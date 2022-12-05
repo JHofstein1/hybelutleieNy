@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #77D4FC;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+    background-color: #77D4FC;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #4B91F1;
+    letter-spacing: 4px;
+
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: #4B91F1;
+    padding: 36px 10px;
+    margin: 0px 1px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #4B91F1;
+}
+
+.banner-area {
+    background-image: url(img/back1.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.banner-area:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #4B91F1;
+    opacity: .6;
+    z-index: -1;
+}
+
+.banner-area h2 {
+    padding-top: 8%;
+    font-size: 80px;
+    color: #fff;
+}
+
+.content-area {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: #4B91F1;
+    top: 600px;
+}
+
+.content-area h2 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+
+.content-area p {
+    padding: 2% 0;
+    line-height: 35px;
+    text-align: justify;
+}
